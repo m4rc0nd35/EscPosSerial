@@ -1,0 +1,27 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 7
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 5
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    /opt/tools750/arm-linux-gnueabihf/include/c++/7.5.0 \
+    /opt/tools750/arm-linux-gnueabihf/include/c++/7.5.0/arm-linux-gnueabihf \
+    /opt/tools750/arm-linux-gnueabihf/include/c++/7.5.0/backward \
+    /opt/tools750/lib/gcc/arm-linux-gnueabihf/7.5.0/include \
+    /opt/tools750/lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed \
+    /opt/tools750/arm-linux-gnueabihf/include \
+    /opt/qt5-cross/sysroot/usr/include/arm-linux-gnueabihf \
+    /opt/qt5-cross/sysroot/usr/include
+QMAKE_CXX.LIBDIRS = \
+    /opt/tools750/lib/gcc/arm-linux-gnueabihf/7.5.0 \
+    /opt/tools750/lib/gcc/arm-linux-gnueabihf \
+    /opt/tools750/lib/gcc \
+    /opt/tools750/arm-linux-gnueabihf/lib \
+    /opt/qt5-cross/sysroot/lib/arm-linux-gnueabihf \
+    /opt/qt5-cross/sysroot/lib \
+    /opt/qt5-cross/sysroot/usr/lib/arm-linux-gnueabihf \
+    /opt/qt5-cross/sysroot/usr/lib
